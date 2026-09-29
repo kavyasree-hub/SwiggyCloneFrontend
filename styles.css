@@ -1,5 +1,8 @@
 *{
     font-family: "Gilroy", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 nav{
     width: 100%;
@@ -8,16 +11,13 @@ nav{
 }
 
 #page1{
+        width: 100%;
+        height: 820px;
+        background-color: #FF5722;
         background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png);
         background-repeat: no-repeat;
         background-position: right;
         background-size: 250px;
-    }
-
-#page1{
-        width: 100%;
-        height: 820px;
-        background-color: #FF5722;
     }
         
 #img1{
@@ -84,7 +84,7 @@ select{
     color: gray;
     font-size: 16px;
     margin-left: 360px;
-    margin-top: -30px;
+    margin-top: 20px;
 }
 
 #button3{
@@ -126,15 +126,17 @@ select{
             font-size: 20px;
             color: gray;
             margin-left: 30px;
-            margin-top: -15px;
+            margin-top: 5px;
         }
         .p2{
+            margin-top: 20px;
             margin-left: 25px;
-            font-size: 15px;
+            font-size: 13px;
+            font-weight: bolder;
             text-align: center;
-            padding: 10px;
-            width: 110px;
-            height: 15px;
+            padding: 5px;
+            width: 120px;
+            height: 25px;
             border-radius: 15px;
             background: linear-gradient(90deg, rgba(255, 125, 41, 0.33) 0%, rgba(255, 125, 41, 0.5) 0%, rgba(240, 224, 204, 1) 100%);
             color: #FF5722;
@@ -340,21 +342,60 @@ select{
     display: inline-block;
 }
 
-table{
-    margin-left: -450px;
-    margin-top: 10px;
-}
-
 .card{
-    width: 350px;
+    background-color: white; 
+    border: 1px solid;
+    width: 320px; 
+    height: 380px; 
+    float: left; 
+    margin-right: 80px; 
+    margin-top: 40px;
     border-radius: 15px;
-    border: 1px solid gray;
 }
 
-#card2{
-    width: 350px;
-    margin-top: -65px;
+.dineout{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+        }
+.sub{
+    width: 310px;
+    height: 38px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    }
+ .beverages{
+    padding-top: 10px;
+    padding-left: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
 }
+#bg1{
+    background-color: #41A67E;
+    }
+#bg2{
+    background-color: #BBF1D2;
+    }
+#bg3{
+    background-color: white;
+    }
+
+#b1{
+    font-size: 13px;
+}
+#b2{
+    font-size: 18px;
+    font-weight: lighter;
+    color: green;
+    }
+#b3{
+    font-size: 12px;
+    font-weight: 600;
+    color: darkblue;
+    }
 
 #para2{
     margin-left: 150px;
@@ -424,7 +465,9 @@ table{
     border: 1px solid gray;
 }
 
-
+.boxtext{
+    margin-top: 15px;
+}
 
 #imgg{
     width: 90%;
@@ -478,17 +521,18 @@ table{
 
 .text{
         width: 150px;
-        height: 10px;
+        height: 12px;
         background-color: #EAECF0;
         text-align: left;
         padding: 10px;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 14px;
     }
 
 a{
     color: #57595B;
     text-decoration: none;
+    width: 150px;
 }
     #box14{
         grid-row: span 3;
@@ -567,6 +611,14 @@ a{
 #app{
     padding-top: 30px;
     padding-right: 15px;
+}
+
+#app:hover{
+    width: 220px;
+}
+
+#play:hover{
+    width: 220px;
 }
 
     
